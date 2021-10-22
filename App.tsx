@@ -8,7 +8,7 @@ import {SignIn} from './src/screens/Authentication/SignIn';
 export default function App() {
   return (
     <Background>
-      <StatusBar backgroundColor={theme.colors.primary} />
+      <StatusBar backgroundColor={theme.colors.color01} />
       <SignIn />
     </Background>
   );
