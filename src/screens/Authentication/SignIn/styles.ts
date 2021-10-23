@@ -12,6 +12,6 @@ export const styles = StyleSheet.create({
   textHeader: {
     fontSize: 30,
     fontFamily: theme.fonts.bold,
-    color: theme.colors.color01
+    color: theme.colors.color02
   }
 });

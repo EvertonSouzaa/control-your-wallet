@@ -1,9 +1,10 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, Alert} from 'react-native';
 import IoniconsIcon from 'react-native-vector-icons/Ionicons';
 
 import {styles} from './styles';
 import {theme} from '../../../global/styles/theme';
+import {Button} from '../../../components/Button';
 
 export function SignIn() {
   return (
@@ -13,6 +14,7 @@ export function SignIn() {
           Control {'\n'} Your {'\n'} Wallet
         </Text>
       </View>
+      <Button title="SignIn" onPress={() => Alert.alert('text')} />
     </View>
   );
 }
