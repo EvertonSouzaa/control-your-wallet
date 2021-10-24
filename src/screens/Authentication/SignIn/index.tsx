@@ -14,7 +14,7 @@ export function SignIn() {
           Control {'\n'} Your {'\n'} Wallet
         </Text>
       </View>
-      <Button title="SignIn" onPress={() => Alert.alert('text')} />
+      <Button title="Sign In" onPress={() => Alert.alert('text')} />
     </View>
   );
 }
